@@ -66,7 +66,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       typesense: {
-        typesenseCollectionName: 'docusaurus_1698870040', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
+        typesenseCollectionName: 'docusaurus', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
 
         typesenseServerConfig: {
           nearestNode: {
