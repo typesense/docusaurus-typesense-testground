@@ -66,7 +66,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       typesense: {
-        typesenseCollectionName: 'typesense_docs', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
+        typesenseCollectionName: 'docusaurus', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
 
         typesenseServerConfig: {
           nearestNode: {
@@ -96,7 +96,7 @@ const config = {
 
         // Optional: Typesense search parameters: https://typesense.org/docs/0.21.0/api/documents.md#search-parameters
         typesenseSearchParameters: {
-          filter_by: 'version:=27.1'
+          // filter_by: 'version:=27.1'
         },
 
         // Optional
